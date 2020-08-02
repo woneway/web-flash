@@ -22,7 +22,7 @@
 </dependency>
 ```
 ### 准备excel模板
-- 默认情况下模板都放在flash-api/src/main/resources/templates/
+- 默认情况下模板都放在operation-api/src/main/resources/templates/
 - 模板如下所示：
 ![excel template](./img/excel-template.jpg)
 

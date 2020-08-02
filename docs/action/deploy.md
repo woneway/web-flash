@@ -1,7 +1,7 @@
 # 开发和部署
 
 ## 本地开发
-- flash-api默认使用8082端口，所以启动后将提供http://localhost:8082接口服务,可以通过 访问http://localhost:8082/swagger-ui.html验证api服务是否成功启动
+- operation-api默认使用8082端口，所以启动后将提供http://localhost:8082接口服务,可以通过 访问http://localhost:8082/swagger-ui.html验证api服务是否成功启动
 - flash-vue-admin项目中的vue.config.js配置了开发环境的api地址,如果更改api的端口，则需要配合调整
 ```javascript
  target:`http://localhost:8082`
@@ -56,7 +56,7 @@ server {
 
 ### api服务打包
 系统默认提供了打包为war以便部署到web容器（例如tomcat）的配置
-flash-api/pom.xml
+operation-api/pom.xml
 ```xml
 <!--以war形式运行 配置开始-->
 <plugin>
@@ -79,7 +79,7 @@ flash-api/pom.xml
     <configuration>
         <mainClass>cn.enilu.flash.api.ApiApplication</mainClass>
         <layout>ZIP</layout>
-        <finalName>flash-api</finalName>
+        <finalName>operation-api</finalName>
     </configuration>
     <executions>
         <execution>

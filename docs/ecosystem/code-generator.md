@@ -42,7 +42,7 @@ public class Boy extends BaseEntity {
 ![code_add](./doc/code_add.jpg)
  
 
-启动flash-api和flash-vue-admin,配置和菜单和角色权限后就可以访问刚刚生成的代码功能了
+启动operation-api和flash-vue-admin,配置和菜单和角色权限后就可以访问刚刚生成的代码功能了
 ![run code_result](./doc/code_result.jpg)
 
 

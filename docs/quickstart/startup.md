@@ -1,9 +1,9 @@
 # 启动项目
 
-## 启动flash-api
-- 右键直接运行cn.enilu.flash.api.ApiApplication 类即可已启动flash-api
+## 启动operation-api
+- 右键直接运行cn.enilu.flash.api.ApiApplication 类即可已启动operation-api
 - 启动成功后访问http://localhost:8082/swagger-ui.html
-![api](../img/flash-api.jpg)
+![api](../img/operation-api.jpg)
 ## 启动flash-vue-admin
 - 本项目使用Node.js，而Node.js采用gyp作为项目生成工具，所以也需要安装python，请保证妥善安装了Node.js和Python
 - 进入flash-vue-admin目录

@@ -5,7 +5,7 @@
 ## web-flash模块
 
 web-flash包含4个模块：
-- flash-api
+- operation-api
 - flash-vue-admin
 - flash-vue-h5
 - flash-core
@@ -15,12 +15,12 @@ web-flash包含4个模块：
 
 具体每个包里的细节不详细介绍，开发人员可以在使用过程中了解，本身代码量并不大，了解起来不需要花费太多时间。
 
-这里仅详细说明下flash-api的内部结构，毕竟日常开发主要是基于该模块来做的。
+这里仅详细说明下operation-api的内部结构，毕竟日常开发主要是基于该模块来做的。
 
-## flash-api
-flash-api是一个标准的是后台数据接口服务
+## operation-api
+operation-api是一个标准的是后台数据接口服务
 
-![flash-api](../img/flash-api-module.jpg)
+![operation-api](../img/operation-api-module.jpg)
 
 目录结构包含：
 
@@ -32,7 +32,7 @@ flash-api是一个标准的是后台数据接口服务
 
 目录结构如下所示：
 
-![flash-api-src](../img/flash-api-src.jpg)
+![operation-api-src](../img/operation-api-src.jpg)
 - **config** 该package 包含项目支持各种特性的相关配置。例如：
     - 跨域配置
     - json配置

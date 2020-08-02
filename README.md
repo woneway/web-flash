@@ -15,7 +15,7 @@
 - 另提供Material Design风格的单体版：[material-admin](https://github.com/enilu/material-admin)
 
 ## 目录说明
-- flash-api 后台api服务
+- operation-api 后台api服务
 - flash-vue-admin 基于vuejs的后台管理系统
 - flash-vue-h5 移动端内容系统，基于后台管理CMS内容管理模块的内容进行展示。
 - flash-core 基础模块，包括工具类，dao，service，bean等内容
@@ -56,8 +56,8 @@ web-flash包含了成熟的后台管理功能和手机端h5内容站点系统
 - 创建数据库：web-flash
 - 在开发环境中配置了系统启动后自动创建数据库和初始化数据，所以不需要开发人员手动初始化数据库
 - 确保开发工具下载了lombok插件
-- 修改flash-api中数据库连接配置
-- 启动flash-api，访问http://localhost:8082/swagger-ui.html ， 保证api服务启动成功
+- 修改operation-api中数据库连接配置
+- 启动operation-api，访问http://localhost:8082/swagger-ui.html ， 保证api服务启动成功
 - 进入flash-vue-admin目录
     - 运行 npm install --registry=https://registry.npm.taobao.org
     - 运行npm run dev
