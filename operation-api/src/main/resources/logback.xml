@@ -15,7 +15,7 @@
 	<!-- 向文件输出日志 -->
 	<appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<fileNamePattern>/data/app/web-flash/runtime/log/api_%d{yyyy-MM-dd}.log</fileNamePattern>
+			<fileNamePattern>/data/app/mt-search-operation/runtime/log/api_%d{yyyy-MM-dd}.log</fileNamePattern>
 			<maxHistory>1000</maxHistory>
 		</rollingPolicy>
 		<encoder>
@@ -28,7 +28,7 @@
 	<logger name="com.alibaba.druid" level="DEBUG" />
 
 	<!-- snow_credit的日志级别 -->
-	<logger name="cn.enilu.flash" level="DEBUG" />
+	<logger name="com.mtsearch.flash" level="DEBUG" />
 
 	<!-- root级别的logger -->
 	<root level="INFO">

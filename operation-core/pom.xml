@@ -3,8 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>web-flash</artifactId>
-        <groupId>cn.enilu</groupId>
+        <artifactId>operation-pom</artifactId>
+        <groupId>com.mtsearch</groupId>
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -124,7 +124,7 @@
         </dependency>
         <!--代码生成-->
         <dependency>
-            <groupId>cn.enilu</groupId>
+            <groupId>com.mtsearch</groupId>
             <artifactId>operation-generator</artifactId>
             <version>${project.parent.version}</version>
         </dependency>

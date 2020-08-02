@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.enilu</groupId>
-    <artifactId>web-flash</artifactId>
+    <groupId>com.mtsearch</groupId>
+    <artifactId>operation-pom</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
