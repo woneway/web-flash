@@ -1,4 +1,4 @@
-package com.mtsearch.operation.code;
+package cn.enilu.flash.code;
 
 import org.nutz.lang.Strings;
 

@@ -1,4 +1,4 @@
-package com.mtsearch.operation.code;
+package cn.enilu.flash.code;
 
 import org.hibernate.annotations.Table;
 import org.nutz.ioc.Ioc;
