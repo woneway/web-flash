@@ -77,7 +77,7 @@ operation-api/pom.xml
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-maven-plugin</artifactId>
     <configuration>
-        <mainClass>cn.enilu.flash.api.ApiApplication</mainClass>
+        <mainClass>com.mtsearch.operation.api.ApiApplication</mainClass>
         <layout>ZIP</layout>
         <finalName>operation-api</finalName>
     </configuration>

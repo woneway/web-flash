@@ -1,4 +1,4 @@
-package com.mtsearch.flash.code;
+package com.mtsearch.operation.code;
 
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;

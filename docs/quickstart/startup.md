@@ -1,7 +1,7 @@
 # 启动项目
 
 ## 启动operation-api
-- 右键直接运行cn.enilu.flash.api.ApiApplication 类即可已启动operation-api
+- 右键直接运行com.mtsearch.operation.api.ApiApplication 类即可已启动operation-api
 - 启动成功后访问http://localhost:8082/swagger-ui.html
 ![api](../img/operation-api.jpg)
 ## 启动flash-vue-admin

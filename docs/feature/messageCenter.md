@@ -29,7 +29,7 @@ private MessageService messageService;
 ```
 ### 新增短信发送器
 本系统默认内置了腾讯的发送短信服务，你只要更改下api相关配置即可使用。你也可能需要用其他的短信服务，那么就需要开发自己的短信发送器，步骤如下：
-- 参考cn.enilu.flash.service.message.sms.tencent.TencentSmsSender 实现一个SmsSender
+- 参考com.mtsearch.operation.service.message.sms.tencent.TencentSmsSender 实现一个SmsSender
 - 在消息发送者界面配置新的发送器，发送器名称为新增的类名（首字母小写）
 ![短信发送器编辑](./img/messageCenter/message-sender-add.jpg)
 - 然后在短信模板界面选择新增的短信发送器即可

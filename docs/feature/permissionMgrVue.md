@@ -19,11 +19,11 @@
 
  ## 配置拦截器
 
-cn.enilu.flash.api.interceptor.JwtFilter中配置拦截器，拦截要过滤的请求地址，具体请参考源代码
+com.mtsearch.operation.api.interceptor.JwtFilter中配置拦截器，拦截要过滤的请求地址，具体请参考源代码
 
 
 ## 左侧菜单导航的权限控制
-用户登陆成功后，会根据用户所拥有的角色配置的菜单生成路由表数据返回到前端：cn.enilu.flash.api.controller.AccountController：
+用户登陆成功后，会根据用户所拥有的角色配置的菜单生成路由表数据返回到前端：com.mtsearch.operation.api.controller.AccountController：
 ```java
 //获取用户可以操作的菜单列表
 List menus = menuRepository.getMenusByRoleIds(shiroUser.getRoleList());

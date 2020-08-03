@@ -1,11 +1,11 @@
-package com.mtsearch.flash.code;
+package com.mtsearch.operation.code;
 
 public class CodeConfig {
-    private String entityModel = "flash-core";
-    private String daoModel = "flash-core";
-    private String serviceModel = "flash-core";
+    private String entityModel = "operation-core";
+    private String daoModel = "operation-core";
+    private String serviceModel = "operation-core";
     private String controllerModel = "operation-api";
-    private String viewModel = "flash-vue-admin";
+    private String viewModel = "operation-vue-admin";
 
     public String getModel(String type) {
         switch (type) {

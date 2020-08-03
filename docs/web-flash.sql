@@ -503,10 +503,10 @@ CREATE TABLE `t_sys_operation_log` (
 -- ----------------------------
 -- Records of t_sys_operation_log
 -- ----------------------------
-INSERT INTO `t_sys_operation_log` VALUES ('1', 'cn.enilu.flash.api.controller.cms.ArticleMgrController', '2019-05-10 13:22:49', '添加参数', '业务日志', '参数名称=system.app.name', 'upload', '成功', '1');
-INSERT INTO `t_sys_operation_log` VALUES ('2', 'cn.enilu.flash.api.controller.cms.ArticleMgrController', '2019-06-10 13:31:09', '修改参数', '业务日志', '参数名称=system.app.name', 'upload', '成功', '1');
-INSERT INTO `t_sys_operation_log` VALUES ('3', 'cn.enilu.flash.api.controller.cms.ArticleMgrController', '2019-07-10 13:22:49', '编辑文章', '业务日志', '参数名称=system.app.name', 'upload', '成功', '1');
-INSERT INTO `t_sys_operation_log` VALUES ('4', 'cn.enilu.flash.api.controller.cms.ArticleMgrController', '2019-08-10 13:31:09', '编辑栏目', '业务日志', '参数名称=system.app.name', 'upload', '成功', '1');
+INSERT INTO `t_sys_operation_log` VALUES ('1', 'com.mtsearch.operation.api.controller.cms.ArticleMgrController', '2019-05-10 13:22:49', '添加参数', '业务日志', '参数名称=system.app.name', 'upload', '成功', '1');
+INSERT INTO `t_sys_operation_log` VALUES ('2', 'com.mtsearch.operation.api.controller.cms.ArticleMgrController', '2019-06-10 13:31:09', '修改参数', '业务日志', '参数名称=system.app.name', 'upload', '成功', '1');
+INSERT INTO `t_sys_operation_log` VALUES ('3', 'com.mtsearch.operation.api.controller.cms.ArticleMgrController', '2019-07-10 13:22:49', '编辑文章', '业务日志', '参数名称=system.app.name', 'upload', '成功', '1');
+INSERT INTO `t_sys_operation_log` VALUES ('4', 'com.mtsearch.operation.api.controller.cms.ArticleMgrController', '2019-08-10 13:31:09', '编辑栏目', '业务日志', '参数名称=system.app.name', 'upload', '成功', '1');
 
 -- ----------------------------
 -- Table structure for `t_sys_relation`
@@ -657,7 +657,7 @@ CREATE TABLE `t_sys_task` (
 -- ----------------------------
 -- Records of t_sys_task
 -- ----------------------------
-INSERT INTO `t_sys_task` VALUES ('1', '1', '2018-12-28 09:54:00', '-1', '2020-06-21 21:30:00', '0', '0 0/30 * * * ?', '{\n\"appname\": \"web-flash\",\n\"version\":1\n}\n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            ', '0', '2020-06-21 21:30:00', '执行成功', 'cn.enilu.flash.service.task.job.HelloJob', 'default', '测试任务', '测试任务,每30分钟执行一次');
+INSERT INTO `t_sys_task` VALUES ('1', '1', '2018-12-28 09:54:00', '-1', '2020-06-21 21:30:00', '0', '0 0/30 * * * ?', '{\n\"appname\": \"web-flash\",\n\"version\":1\n}\n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            ', '0', '2020-06-21 21:30:00', '执行成功', 'com.mtsearch.operation.service.task.job.HelloJob', 'default', '测试任务', '测试任务,每30分钟执行一次');
 
 -- ----------------------------
 -- Table structure for `t_sys_task_log`

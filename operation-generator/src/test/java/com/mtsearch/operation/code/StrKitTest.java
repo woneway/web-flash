@@ -1,4 +1,4 @@
-package com.mtsearch.flash.code;
+package com.mtsearch.operation.code;
 
 import org.junit.Assert;
 import org.junit.Test;

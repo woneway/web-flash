@@ -28,7 +28,7 @@
 
 
 ### 准备数据并根据模板生成excel文件
-- 参考类：cn.enilu.flash.api.controller.system.CfgController的export方法
+- 参考类：com.mtsearch.operation.api.controller.system.CfgController的export方法
 ```java
     /**
      * 导出参数列表

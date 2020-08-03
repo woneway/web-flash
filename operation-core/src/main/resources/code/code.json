@@ -1,13 +1,13 @@
 //代码生成配置，具体用法参考：http://enilu.gitee.io/web-flash/ecosystem/code-generator.html
 {
   "codeConfig": {
-    "type": "cn.enilu.flash.code.CodeConfig",
+    "type": "com.mtsearch.operation.code.CodeConfig",
     "fields": {
-      entityModel: "flash-core",
-      daoModel: "flash-core",
-      serviceModel: "flash-core",
+      entityModel: "operation-core",
+      daoModel: "operation-core",
+      serviceModel: "operation-core",
       controllerModel: "operation-api",
-      viewModel: "flash-vue-admin"
+      viewModel: "operation-vue-admin"
     }
   }
 }

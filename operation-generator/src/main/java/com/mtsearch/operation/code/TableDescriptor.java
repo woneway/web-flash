@@ -1,4 +1,4 @@
-package com.mtsearch.flash.code;
+package com.mtsearch.operation.code;
 
 
 import org.atteo.evo.inflector.English;

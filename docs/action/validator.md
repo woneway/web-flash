@@ -7,7 +7,7 @@
 
 ## 实体类
 
-在实体类中对应的字段添加验证注解,以：cn.enilu.flash.bean.entity.message.MessageTemplate为例
+在实体类中对应的字段添加验证注解,以：com.mtsearch.operation.bean.entity.message.MessageTemplate为例
 
 ```java
 @Data
@@ -49,7 +49,7 @@ inclusive=true,是小于等于
 
 在提交数据的方法中，需要使用@Valid来标识验证该类中的字段输入的合法性。
 
-以cn.enilu.flash.api.controller.message.MessagetemplateController.save方法为例：
+以com.mtsearch.operation.api.controller.message.MessagetemplateController.save方法为例：
 
 ```java
     @RequestMapping(method = RequestMethod.POST)
