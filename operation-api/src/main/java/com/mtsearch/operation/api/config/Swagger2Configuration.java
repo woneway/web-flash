@@ -46,7 +46,7 @@ public class Swagger2Configuration {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("web-flash api")
+                .title("搜索后台管理系统 api")
                 .description("快速构建web管理平台")
                 .termsOfServiceUrl("blog.enilu.cn")
                 .contact("blog.enilu.cn")

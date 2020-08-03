@@ -15,7 +15,6 @@ export default {
     loginLog: 'Login Log',
     log: 'Bussiness Log',
     cfg: 'Config',
-
     banner: 'Banner',
     article: 'Article',
     editArticle: 'Edit Article',
@@ -26,7 +25,10 @@ export default {
     swagger: 'Docs',
     msg: 'History',
     msgTpl: 'Template',
-    msgSender: 'Sender'
+    msgSender: 'Sender',
+    boymgr:'Gender',
+    boymgr1:'Boy',
+    girlmgr:'Girl'
   },
   navbar: {
     logOut: 'Log Out',
@@ -39,7 +41,7 @@ export default {
     size: 'Global Size'
   },
   login: {
-    title: 'web-flash',
+    title: 'Search management System',
     errorAccount: 'Please enter the correct user name',
     errorPassword: 'The password can not be less than 5 digits',
     logIn: 'Log in',

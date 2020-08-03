@@ -1,6 +1,6 @@
 module.exports = {
 
-  title: 'web-flash后台管理',
+  title: '搜索后台管理系统',
 
   /**
    * @type {boolean} true | false
